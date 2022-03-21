@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./image/sheeran.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(228, 227, 184);
+    font-size: 44px;
+    font-family: handsnow;
+    align-self: center;
+
+
+}
+@font-face {
+    font-family: handsnow;
+    src: url(Handsnow.ttf);
+    }
+.lyrics{
+font-size: 32px;
+font-weight: 800;
+margin-top: 181px;
+color: rgb(255, 255, 255);
+font-family: cursive;
+text-align: center;
+border: 3px solid orange;
+border-radius: 7px;
+padding: 8px;
+
+}
